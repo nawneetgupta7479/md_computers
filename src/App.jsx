@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Home from "./Components/Home";
 
 import Footer from "./Components/Home/Footer";
-import Login from "./pages/login";
-import Signup from "./pages/signup";
+// import Login from "./pages/login";
+// import Signup from "./pages/signup";
 
 import Header from "./Components/Home/Header";
 import Products from "./Components/Home/Products";
@@ -28,11 +28,11 @@ function App() {
       <Swiper/>
       <OfferZone/>
       <Products/>
-      <Routes>
+{/*       <Routes>
         <Route path="/" />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-      </Routes>
+      </Routes> */}
       <MackbookPlus/>
       <Explore/>
       <MainCategories/>
